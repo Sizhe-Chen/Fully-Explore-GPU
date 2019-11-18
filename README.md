@@ -1,7 +1,7 @@
 # Fully-Explore-GPU
 Constantly search GPU with free memory to launch designed process
 
-Usage:     python run.py file_name interval memory start_id gpus
+* Usage:     python run.py file_name interval memory start_id gpus
 file_name  py file name (without .py) to import task
 interval   search time interval, seconds for process to acquire full memory it uses
 memory     memory requirement (GB)
