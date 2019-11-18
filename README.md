@@ -5,11 +5,11 @@ For example,
 ```python run.py main 900 8 5 2,3```
 
 # Parameters
-* file_name  py file name (without .py) to import task
-* interval   search time interval, seconds for process to acquire full memory it uses
-* memory     memory requirement (GB)
-* start_id   the first task id to start, 0 for start from scratch (task 0)
-* gpus       GPU(s) to be used
+* file_name &nbsp&nbsp py file name (without .py) to import task
+* interval &nbsp&nbsp&nbsp  search time interval, seconds for process to acquire full memory it uses
+* memory &nbsp&nbsp&nbsp&nbsp    memory requirement (GB)
+* start_id &nbsp&nbsp  the first task id to start, 0 for start from scratch (task 0)
+* gpus &nbsp&nbsp&nbsp&nbsp      GPU(s) to be used
 
 # IMPORTANT
 * def yield_task_parameters(): in file_name.py which yields command line parameters in each call until StopIteration. For example, write function below in file_name.py
