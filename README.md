@@ -1,4 +1,4 @@
-# Fully-Explore-GPU
+# Function
 Constantly search GPU with free memory to launch designed process<br/>
 ```python run.py file_name interval memory start_id gpus```<br/>
 For example,<br/>
@@ -11,7 +11,7 @@ For example,<br/>
 * start_id-----the first task id to start, 0 for start from scratch (task 0)
 * gpus-------GPU(s) to be used
 
-# IMPORTANT
+# Design your tasks
 * def yield_task_parameters(): in file_name.py which yields command line parameters in each call until StopIteration.
 * For example, write function below in file_name.py
 
